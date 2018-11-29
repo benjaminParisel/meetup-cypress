@@ -1,0 +1,5 @@
+{
+  "watchForFileChanges":"true",
+  "fixturesFolder": "cypress/fixtures",
+  "integrationFolder": "cypress/integration"
+}
