@@ -1,11 +1,11 @@
 {
   "name": "meetup-cypress",
   "version": "1.0.0",
-  "description": "",
+  "description": "> Cypress + UIDesigner = ❤️Tests",
   "main": "index.js",
   "scripts": {
-    "cypress-open":"cypress open",
-    "cypress-run":"cypress run",
+    "cypress-open": "cypress open",
+    "cypress-run": "cypress run",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -19,6 +19,10 @@
   },
   "homepage": "https://github.com/benjaminParisel/meetup-cypress#readme",
   "devDependencies": {
-    "cypress": "^3.1.2"
+    "cypress": "^3.0.3",
+    "cypress-cucumber-preprocessor": "^1.2.2"
+  },
+  "cypress-cucumber-preprocessor": {
+    "step_definitions": "step_definitions/"
   }
 }

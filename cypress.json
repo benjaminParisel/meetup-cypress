@@ -1,5 +1,11 @@
 {
-  "watchForFileChanges":"true",
-  "fixturesFolder": "cypress/fixtures",
-  "integrationFolder": "cypress/integration"
+  "integrationFolder": "test/specs",
+  "fixturesFolder": "test/mockServer",
+  "screenshotsFolder": "target/tests/screenshots",
+  "videosFolder": "target/tests/videos",
+  "reporter": "junit",
+  "reporterOptions": {
+    "mochaFile": "target/tests/results/test-results-output.xml",
+    "toConsole": true
+  }
 }
